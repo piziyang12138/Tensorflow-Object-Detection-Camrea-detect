@@ -12,3 +12,4 @@ open cmd and go to Tensorflow-Object-Detection-Camrea-detect dirtory<br>
 ```
 python camrea-detect.py
 ```
+you can tap 'q' to quit
