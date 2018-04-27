@@ -7,3 +7,8 @@ open cmd and pip:<br>
 pip install tensorflow
 pip install numpy
 pip install opencv-python
+```
+open cmd and go to Tensorflow-Object-Detection-Camrea-detect dirtory<br>
+```
+python camrea-detect.py
+```
