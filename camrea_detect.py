@@ -10,10 +10,9 @@ from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
 
 PATH_TO_CKPT = os.path.join(
-    r'E:\TensorFlowObjectDetection\models\research\object_detection\ssd_mobilenet_v1_coco_2017_11_17'
-    r'\frozen_inference_graph.pb')
+    r'.\frozen_inference_graph.pb')
 PATH_TO_LABELS = os.path.join(
-    r'E:\TensorFlowObjectDetection\models\research\object_detection\data\mscoco_label_map.pbtxt')
+    r'.\mscoco_label_map.pbtxt')
 NUM_CLASSES = 90
 label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
 categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES,
